@@ -57,11 +57,11 @@ Baisakhi Mitra (baisakhi7.mitra7@gmail.com)
 ## Version History
 
 * 0.1
-    * Initial Release
+    * Initial Release [In progress]
 
 ## License
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
-
+** will be added
