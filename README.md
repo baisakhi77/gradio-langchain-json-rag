@@ -10,7 +10,7 @@ HaluEval dataset is used for testing.
 https://github.com/RUCAIBox/HaluEval/blob/main/data/qa_data.json
 
 ## Getting Started
-[![Open In Colab](https://google.com)](https://google.com)
+To get started with the project, follow the steps below.
 
 ## Installation Steps
 1. Clone the repository:
@@ -24,9 +24,11 @@ sudo apt-get update && sudo apt-get install -y zstd
 curl -fsSL https://ollama.com/install.sh | sh
 
 ### Run the application
-* python 
+* python filename.py 
 
-## Result
+## Usage
+
+
 
 <img width="1508" height="398" alt="image" src="https://github.com/user-attachments/assets/3139edbf-d730-454f-a4b2-b1e0fc5ff567" />
 
