@@ -1,0 +1,7 @@
+gradio
+langchain
+langchain-community
+langchain-ibm
+chromadb
+pydantic
+jq
