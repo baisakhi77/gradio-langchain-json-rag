@@ -5,49 +5,57 @@
 
 A full-stack Retrieval-Augmented Generation (RAG) application built with Gradio, ChromaDB, and Llama 3. This system allows users to upload custom JSON datasets, persist embeddings locally in a vector database, and query the data through an interactive chat interface with source-aware context retrieval.
 
-## Dataset
-HaluEval dataset is used for testing.
-https://github.com/RUCAIBox/HaluEval/blob/main/data/qa_data.json
 
-## Getting Started
-To get started with the project, follow the steps below.
+## Datasets
 
-## Installation Steps
-1. Clone the repository:
-git clone https://github.com/baisakhi77/gradio-langchain-json-rag.git
+We use the [HaluEval](https://github.com/RUCAIBox/HaluEval) benchmark for testing and evaluating model hallucinations. 
 
-### Install dependencies 
-pip install -r requirements.txt
+<Quote bind="1.1.9">HaluEval is a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination, as introduced in [HaluEval](https://github.com/RUCAIBox/HaluEval).</Quote>
 
-### LLM installation
-sudo apt-get update && sudo apt-get install -y zstd
-curl -fsSL https://ollama.com/install.sh | sh
+## Python packages used
+* langchain
+* langchain_community
+* gradio
+* langchain_core
 
-### Run the application
-* python filename.py 
+## Running the Notebook
+
+Click the **Open in Colab** badge above to launch and execute this Jupyter notebook directly in your browser via [Google Colab](https://colab.research.google.com). No local installation is required.
+
+### Steps:
+1. Click the **Open In Colab** button.
+2. Once the notebook opens in Google Colab, you can run individual code cells by clicking the **Play button** or pressing `Shift + Enter`.
+3. If your notebook requires a GPU (for machine learning or AI models), go to **Runtime** > **Change runtime type** in the top menu and select **T4 GPU** (or another available accelerator), then click **Save**.
 
 ## Usage
-
-
-
+1. Upload the JSON file mentioned in the Dataset section.
+2. Click on 'Process JSON'.
+3. Chat with the qabot by entering a question in 'Input Query' section and getting the answer in 'Output' box.
 <img width="1508" height="398" alt="image" src="https://github.com/user-attachments/assets/3139edbf-d730-454f-a4b2-b1e0fc5ff567" />
 
 
-## Authors
+### Citation
+
+```bibtex
+@inproceedings{li2023halueval,
+  title={HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models},
+  author={Li, Junyi and Cheng, Xiaoxue and Zhao, Wayne Xin and Nie, Jian-Yun and Wen, Ji-Rong},
+  booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2023}
+}
+```
+### Acknowledgments
+
+* AI model inference powered locally by [Ollama](https://ollama.com/).
+* This project uses the following open-source libraries:
+* [LangChain](https://github.com/langchain-ai/langchain) (`langchain`, `langchain_core`, `langchain_community`) 
+* [Gradio](https://github.com/gradio-app/gradio) - UI framework for building machine learning demos.
+
+
+## Contact
 
 Contributors names and contact info
 
 Baisakhi Mitra (baisakhi7.mitra7@gmail.com)
 
 
-## Version History
-
-* 0.1
-    * Initial Release [In progress]
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-** will be added
