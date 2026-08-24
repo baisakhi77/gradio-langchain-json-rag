@@ -20,7 +20,7 @@ We use the [HaluEval](https://github.com/RUCAIBox/HaluEval) benchmark for testin
 
 ## Running the Notebook
 
-Click the **Open in Colab** badge above to launch and execute this Jupyter notebook directly in your browser via [Google Colab](https://colab.research.google.com). No local installation is required.
+Click the **Open in Colab** badge above to launch and execute this Jupyter notebook directly in your browser via [Google Colab](https://drive.google.com/file/d/1HksFGSMJZVsSyoSdYYYjo90QAmGp4Flv/view?usp=sharing). No local installation is required.
 
 ### Steps:
 1. Click the **Open In Colab** button.
