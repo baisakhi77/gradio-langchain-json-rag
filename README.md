@@ -48,7 +48,7 @@ Click the **Open in Colab** badge above to launch and execute this Jupyter noteb
 * AI model inference powered locally by [Ollama](https://ollama.com/).
 * This project uses the following open-source libraries:
   * [LangChain](https://github.com/langchain-ai/langchain) (`langchain`, `langchain_core`, `langchain_community`)
-  * Gradio](https://github.com/gradio-app/gradio) - UI framework for building machine learning demos.
+  * [Gradio](https://github.com/gradio-app/gradio) - UI framework for building machine learning demos.
 
 
 ## Contact
