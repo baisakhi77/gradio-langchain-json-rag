@@ -52,9 +52,9 @@ Click the **Open in Colab** badge above to launch and execute this Jupyter noteb
 * This project uses the following open-source libraries:
   * [LangChain](https://github.com/langchain-ai/langchain) (`langchain`, `langchain_core`, `langchain_community`)
   * [Gradio](https://github.com/gradio-app/gradio) - UI framework for building machine learning demos.
-  * [ChromaDB] (https://github.com/chroma-core/chroma)
-  * [jq] (https://github.com/jqlang/jq)
-  * [numpy] (https://github.com/numpy/numpy)
+  * [ChromaDB](https://github.com/chroma-core/chroma)
+  * [jq](https://github.com/jqlang/jq)
+  * [numpy](https://github.com/numpy/numpy)
   
 
 ## Contact
