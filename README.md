@@ -36,14 +36,13 @@ Click the **Open in Colab** badge above to launch and execute this Jupyter noteb
 
 ### Citation
 
-```bibtex
-@inproceedings{li2023halueval,
-  title={HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models},
-  author={Li, Junyi and Cheng, Xiaoxue and Zhao, Wayne Xin and Nie, Jian-Yun and Wen, Ji-Rong},
-  booktitle={Empirical Methods in Natural Language Processing (EMNLP)},
-  year={2023}
+@misc{HaluEval,
+  author = {Junyi Li and Xiaoxue Cheng and Wayne Xin Zhao and Jian-Yun Nie and Ji-Rong Wen },
+  title = {HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models},
+  year = {2023},
+  journal={arXiv preprint arXiv:2305.11747},
+  url={https://arxiv.org/abs/2305.11747}
 }
-```
 ### Acknowledgments
 
 * AI model inference powered locally by [Ollama](https://ollama.com/).
