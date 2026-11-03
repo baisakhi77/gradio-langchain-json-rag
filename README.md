@@ -57,7 +57,11 @@ Click the **Open in Colab** badge above to launch and execute this Jupyter noteb
   * [ChromaDB](https://github.com/chroma-core/chroma)
   * [jq](https://github.com/jqlang/jq)
 
-  
+## 🚀 Future Roadmap & Scope of Improvements
+
+While the core functionality is stable, I plan to implement the following enhancement:
+
+- **Performance Optimization:** Implement faster retrieval of query output from vector database.
 
 ## Contact
 
