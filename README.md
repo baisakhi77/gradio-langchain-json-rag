@@ -36,8 +36,7 @@ Click the **Open in Colab** badge above to launch and execute this Jupyter noteb
 1. Upload the JSON file mentioned in the Dataset section.
 2. Click on 'Process JSON'.
 3. Chat with the qabot by entering a question in 'Input Query' section and getting the answer in 'Output' box.
-<img width="1508" height="398" alt="image" src="https://github.com/user-attachments/assets/3139edbf-d730-454f-a4b2-b1e0fc5ff567" />
-
+<img width="3018" height="990" alt="Gradio" src="https://github.com/user-attachments/assets/c3a9439b-f927-47ed-9f93-77950fd9ba6d" />
 
 ### Citation
 
