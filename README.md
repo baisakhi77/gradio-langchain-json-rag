@@ -8,22 +8,24 @@ A full-stack Retrieval-Augmented Generation (RAG) application built with Gradio,
 
 ## Datasets
 
-We use the [HaluEval](https://github.com/RUCAIBox/HaluEval) benchmark for testing and evaluating model hallucinations. 
+We use the [HaluEval](https://github.com/RUCAIBox/HaluEval) benchmark for testing and evaluating model hallucinations. A small subset of HaluEval dataset (qa_data_chatbot.json ) is used for testing the application. 
 
 <Quote bind="1.1.9">HaluEval is a large collection of generated and human-annotated hallucinated samples for evaluating the performance of LLMs in recognizing hallucination, as introduced in [HaluEval](https://github.com/RUCAIBox/HaluEval).</Quote>
 
 ## Python packages used
-* langchain
+* langchain-text-splitters
 * langchain_community
-* langchain_core
 * gradio
 * chromadb
 * jq
-* numpy
+
+## Additional requirement
+ * Download Ollama from [Ollama](https://ollama.com/download) and setup in local.
+ * Keep Ollama running while executing the application.
 
 ## Running the Notebook
 
-Click the **Open in Colab** badge above to launch and execute this Jupyter notebook directly in your browser via [Google Colab](https://drive.google.com/file/d/1HksFGSMJZVsSyoSdYYYjo90QAmGp4Flv/view?usp=sharing). No local installation is required.
+Click the **Open in Colab** badge above to launch and execute this Jupyter notebook directly in your browser via [Google Colab](https://colab.research.google.com/drive/1EnAguViiRcAirSluYj5Www_5d6crmVBW?usp=sharing). No local installation is required.
 
 ### Steps:
 1. Click the **Open In Colab** button.
@@ -54,7 +56,7 @@ Click the **Open in Colab** badge above to launch and execute this Jupyter noteb
   * [Gradio](https://github.com/gradio-app/gradio) - UI framework for building machine learning demos.
   * [ChromaDB](https://github.com/chroma-core/chroma)
   * [jq](https://github.com/jqlang/jq)
-  * [numpy](https://github.com/numpy/numpy)
+
   
 
 ## Contact
